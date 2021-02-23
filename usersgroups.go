@@ -3,7 +3,7 @@ package tableau
 import (
 	"encoding/xml"
 	"fmt"
-	"github.com/tiket/tableau-go-client/models"
+	"github.com/tiketdatarisal/tableau-go-client/models"
 	"net/http"
 )
 

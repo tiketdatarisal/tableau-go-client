@@ -1,4 +1,4 @@
-module github.com/tiket/tableau-go-client
+module github.com/tiketdatarisal/tableau-go-client
 
 go 1.15
 
