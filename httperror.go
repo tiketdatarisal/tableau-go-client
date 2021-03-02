@@ -12,3 +12,11 @@ func (h *HttpError) Error() string {
 
 	return ""
 }
+
+func (h *HttpError) IsStatusCode(err error, code int) bool {
+	if e, ok := err.(*HttpError); ok {
+		return e.Code == code
+	}
+
+	return false
+}
